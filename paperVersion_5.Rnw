@@ -221,7 +221,7 @@ stargazer(LinRegA,LinRegB,title = "Modelos de Regresión",
 
 Estos son los lugares donde tenemos información:
 
-<<getMap, echo=FALSE,results=verbatim>>=
+<<getMap, echo=FALSE,results=hide>>=
 library(rgdal)
 folder='world_map'
 file='world_map.shp'
